@@ -1,4 +1,4 @@
-FROM node:16.16.0
+FROM node:16.19.0-buster-slim
 
 # create a working directory for the app
 WORKDIR /app
@@ -6,8 +6,10 @@ WORKDIR /app
 # copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
+
 # install dependencies
 RUN npm install
+
 
 # copy the rest of the app's source code to the working directory
 COPY . .

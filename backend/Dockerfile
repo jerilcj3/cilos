@@ -4,7 +4,6 @@ FROM python:3.10.7
 RUN mkdir -p /app/conf /app/files /app/logs /app/src/controller /app/src/lib /app/src/models
 
 
-
 # copy the necessary files
 COPY requirements.txt /app/requirements.txt
 RUN true

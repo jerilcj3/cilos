@@ -3207,3 +3207,124 @@ Request Headers:
 [27/Dec/2022:06:19:26] ENGINE Started monitor thread 'Autoreloader'.
 [27/Dec/2022:06:19:27] ENGINE Serving on http://0.0.0.0:8080
 [27/Dec/2022:06:19:27] ENGINE Bus STARTED
+[27/Dec/2022:07:45:54] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:07:45:54] ENGINE Bus STOPPING
+[27/Dec/2022:07:45:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:07:45:55] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:07:45:55] ENGINE Bus STOPPED
+[27/Dec/2022:07:45:55] ENGINE Bus EXITING
+[27/Dec/2022:07:45:55] ENGINE Bus EXITED
+[27/Dec/2022:07:45:55] ENGINE Waiting for child threads to terminate...
+[27/Dec/2022:07:46:03] ENGINE Listening for SIGTERM.
+[27/Dec/2022:07:46:03] ENGINE Listening for SIGHUP.
+[27/Dec/2022:07:46:03] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:07:46:03]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:07:46:03] ENGINE Bus STARTING
+[27/Dec/2022:07:46:03] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:07:46:03] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:07:46:03] ENGINE Bus STARTED
+[27/Dec/2022:07:47:30] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:07:47:34] ENGINE Bus STOPPING
+[27/Dec/2022:07:47:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:07:47:34] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:07:47:34] ENGINE Bus STOPPED
+[27/Dec/2022:07:47:34] ENGINE Bus EXITING
+[27/Dec/2022:07:47:34] ENGINE Bus EXITED
+[27/Dec/2022:07:47:34] ENGINE Waiting for child threads to terminate...
+[27/Dec/2022:07:47:40] ENGINE Listening for SIGTERM.
+[27/Dec/2022:07:47:41] ENGINE Listening for SIGHUP.
+[27/Dec/2022:07:47:41] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:07:47:41]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:07:47:41] ENGINE Bus STARTING
+[27/Dec/2022:07:47:41] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:07:47:41] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:07:47:41] ENGINE Bus STARTED
+[27/Dec/2022:07:50:08] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:07:50:08] ENGINE Bus STOPPING
+[27/Dec/2022:07:50:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:07:50:08] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:07:50:08] ENGINE Bus STOPPED
+[27/Dec/2022:07:50:08] ENGINE Bus EXITING
+[27/Dec/2022:07:50:08] ENGINE Bus EXITED
+[27/Dec/2022:07:50:08] ENGINE Waiting for child threads to terminate...
+[27/Dec/2022:08:05:43] ENGINE Listening for SIGTERM.
+[27/Dec/2022:08:05:43] ENGINE Listening for SIGHUP.
+[27/Dec/2022:08:05:43] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:08:05:43]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:08:05:43] ENGINE Bus STARTING
+[27/Dec/2022:08:05:43] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:08:05:43] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:08:05:43] ENGINE Bus STARTED
+[27/Dec/2022:08:28:12] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:08:28:12] ENGINE Bus STOPPING
+[27/Dec/2022:08:28:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:08:28:13] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:08:28:13] ENGINE Bus STOPPED
+[27/Dec/2022:08:28:13] ENGINE Bus EXITING
+[27/Dec/2022:08:28:13] ENGINE Bus EXITED
+[27/Dec/2022:08:28:13] ENGINE Waiting for child threads to terminate...
+[27/Dec/2022:09:08:32] ENGINE Listening for SIGTERM.
+[27/Dec/2022:09:08:32] ENGINE Listening for SIGHUP.
+[27/Dec/2022:09:08:32] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:09:08:32]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:09:08:32] ENGINE Bus STARTING
+[27/Dec/2022:09:08:32] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:09:08:32] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:09:08:32] ENGINE Bus STARTED
+[27/Dec/2022:09:23:26] ENGINE Listening for SIGTERM.
+[27/Dec/2022:09:25:00] ENGINE Listening for SIGHUP.
+[27/Dec/2022:09:25:00] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:09:25:00]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:09:25:30] ENGINE Bus STARTING
+[27/Dec/2022:09:26:01] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:09:26:01] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:09:26:01] ENGINE Bus STARTED
+[27/Dec/2022:09:50:01] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:10:14:15] ENGINE Listening for SIGTERM.
+[27/Dec/2022:10:14:15] ENGINE Listening for SIGHUP.
+[27/Dec/2022:10:14:15] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:10:14:15]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:10:14:15] ENGINE Bus STARTING
+[27/Dec/2022:10:14:15] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:10:14:15] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:10:14:15] ENGINE Bus STARTED
+[27/Dec/2022:12:05:59] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:12:06:00] ENGINE Bus STOPPING
+[27/Dec/2022:12:06:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:12:06:00] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:12:06:00] ENGINE Bus STOPPED
+[27/Dec/2022:12:06:00] ENGINE Bus EXITING
+[27/Dec/2022:12:06:00] ENGINE Bus EXITED
+[27/Dec/2022:12:06:00] ENGINE Waiting for child threads to terminate...
+[27/Dec/2022:12:10:16] ENGINE Listening for SIGTERM.
+[27/Dec/2022:12:10:16] ENGINE Listening for SIGHUP.
+[27/Dec/2022:12:10:16] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:12:10:16]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:12:10:17] ENGINE Bus STARTING
+[27/Dec/2022:12:10:17] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:12:10:17] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:12:10:17] ENGINE Bus STARTED
+[27/Dec/2022:12:15:15] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:12:15:15] ENGINE Bus STOPPING
+[27/Dec/2022:12:15:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:12:15:15] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:12:15:15] ENGINE Bus STOPPED
+[27/Dec/2022:12:15:15] ENGINE Bus EXITING
+[27/Dec/2022:12:15:15] ENGINE Bus EXITED
+[27/Dec/2022:12:15:15] ENGINE Waiting for child threads to terminate...
+[27/Dec/2022:12:22:03] ENGINE Listening for SIGTERM.
+[27/Dec/2022:12:22:03] ENGINE Listening for SIGHUP.
+[27/Dec/2022:12:22:03] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:12:22:03]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:12:22:03] ENGINE Bus STARTING
+[27/Dec/2022:12:22:03] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:12:22:03] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:12:22:03] ENGINE Bus STARTED
+[27/Dec/2022:13:06:15] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:13:06:15] ENGINE Bus STOPPING
+[27/Dec/2022:13:06:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:13:06:15] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:13:06:15] ENGINE Bus STOPPED
+[27/Dec/2022:13:06:15] ENGINE Bus EXITING
+[27/Dec/2022:13:06:15] ENGINE Bus EXITED
+[27/Dec/2022:13:06:15] ENGINE Waiting for child threads to terminate...
