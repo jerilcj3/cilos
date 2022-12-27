@@ -18,8 +18,6 @@ copy logs/* /app/logs/
 RUN true
 COPY src/controller/* /app/src/controller/
 RUN true
-COPY src/lib/* /app/src/lib/
-RUN true
 COPY src/models/* /app/src/models/
 RUN true
 COPY src/query.sql /app/src/query.sql
