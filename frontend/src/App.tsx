@@ -9,6 +9,15 @@ import ExampleBarChart from './components/ExampleBarChart';
 import CilosForm from './components/CilosForm';
 import CompanyTable from './components/CompanyTable';
 import ProductsTable from './components/ProductsTable';
+import { createStyles } from '@mantine/core';
+
+const useStyles = createStyles((theme) => ({
+  wrapper:{
+     maxWidth: '1900px',
+     margin:'0 auto' 
+  }
+
+}))
 
 const links = [
   { label: 'Home', link: '/' },
@@ -17,14 +26,12 @@ const links = [
 ];
 
 function App() {
+  const { classes } = useStyles();
+
   return (
-    <AppShell
+    <AppShell className={classes.wrapper}
       padding="md"
-      navbar={
-        <Navbar width={{ base: 300 }} height={800} p="xs">
-          {/* Navbar content */}
-        </Navbar>
-      }
+      
       header={
         <Header height={60} p="xs">
           <HeaderSimple links={links} />

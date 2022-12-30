@@ -3328,3 +3328,35 @@ Request Headers:
 [27/Dec/2022:13:06:15] ENGINE Bus EXITING
 [27/Dec/2022:13:06:15] ENGINE Bus EXITED
 [27/Dec/2022:13:06:15] ENGINE Waiting for child threads to terminate...
+[27/Dec/2022:14:22:18] ENGINE Listening for SIGTERM.
+[27/Dec/2022:14:22:18] ENGINE Listening for SIGHUP.
+[27/Dec/2022:14:22:18] ENGINE Listening for SIGUSR1.
+[27/Dec/2022:14:22:18]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[27/Dec/2022:14:22:18] ENGINE Bus STARTING
+[27/Dec/2022:14:22:18] ENGINE Started monitor thread 'Autoreloader'.
+[27/Dec/2022:14:22:18] ENGINE Serving on http://0.0.0.0:8080
+[27/Dec/2022:14:22:18] ENGINE Bus STARTED
+[27/Dec/2022:15:00:46] ENGINE Caught signal SIGTERM.
+[27/Dec/2022:15:00:46] ENGINE Bus STOPPING
+[27/Dec/2022:15:00:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[27/Dec/2022:15:00:46] ENGINE Stopped thread 'Autoreloader'.
+[27/Dec/2022:15:00:46] ENGINE Bus STOPPED
+[27/Dec/2022:15:00:46] ENGINE Bus EXITING
+[27/Dec/2022:15:00:46] ENGINE Bus EXITED
+[27/Dec/2022:15:00:46] ENGINE Waiting for child threads to terminate...
+[30/Dec/2022:01:50:04] ENGINE Listening for SIGTERM.
+[30/Dec/2022:01:50:04] ENGINE Listening for SIGHUP.
+[30/Dec/2022:01:50:04] ENGINE Listening for SIGUSR1.
+[30/Dec/2022:01:50:04]  Creating tables: Engine(postgresql://postgres:***@db:5432/cilos)
+[30/Dec/2022:01:50:04] ENGINE Bus STARTING
+[30/Dec/2022:01:50:04] ENGINE Started monitor thread 'Autoreloader'.
+[30/Dec/2022:01:50:04] ENGINE Serving on http://0.0.0.0:8080
+[30/Dec/2022:01:50:04] ENGINE Bus STARTED
+[30/Dec/2022:03:20:17] ENGINE Caught signal SIGTERM.
+[30/Dec/2022:03:20:17] ENGINE Bus STOPPING
+[30/Dec/2022:03:20:17] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[30/Dec/2022:03:20:17] ENGINE Stopped thread 'Autoreloader'.
+[30/Dec/2022:03:20:17] ENGINE Bus STOPPED
+[30/Dec/2022:03:20:17] ENGINE Bus EXITING
+[30/Dec/2022:03:20:17] ENGINE Bus EXITED
+[30/Dec/2022:03:20:17] ENGINE Waiting for child threads to terminate...
