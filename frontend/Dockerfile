@@ -11,6 +11,8 @@ RUN npm install react-scripts -g --silent
 # install dependencies
 RUN npm install
 
+Run npm install typescript@4.9.4
+
 
 # copy the rest of the app's source code to the working directory
 COPY . .
