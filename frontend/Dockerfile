@@ -1,4 +1,4 @@
-FROM node:16.19.0-buster-slim
+FROM node:16.16.0-alpine as build
 
 # create a working directory for the app
 WORKDIR /app
@@ -18,5 +18,14 @@ COPY . .
 # build the app for production
 RUN npm run build
 
-# start the app
-CMD ["npm", "start"]
+# production environment
+
+FROM nginx:stable-alpine
+
+COPY --from=build /app/build /usr/share/nginx/html
+
+COPY --from=build /app/nginx/nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
