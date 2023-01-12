@@ -2,10 +2,10 @@ version: '3.7'
 
 services:
   frontend:
-    #image: jerilcj3/lithan:frontend-latest
-    build:
-      context: frontend
-      dockerfile: Dockerfile
+    image: jerilcj3/educlaas:frontend-latest
+    #build:
+    #context: frontend
+    #dockerfile: Dockerfile
     ports:
       - '3000:3000'
     depends_on:
@@ -18,10 +18,10 @@ services:
       - mynetwork
 
   backend:
-    #image: jerilcj3/lithan:backend-latest
-    build:
-      context: backend
-      dockerfile: Dockerfile
+    image: jerilcj3/educlaas:backend-latest
+    #build:
+    #context: backend
+    #dockerfile: Dockerfile
     ports:
       - '8080:8080'
     depends_on:
@@ -46,6 +46,21 @@ services:
       - '5432:5432'
     networks:
       - mynetwork
+  
+  nginx:
+    image: nginx:alpine
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./frontend:/app/frontend
+      - ./backend:/app/backend
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - mynetworks
 
 networks:
   mynetwork:
