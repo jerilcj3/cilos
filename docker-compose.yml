@@ -60,7 +60,7 @@ services:
       - frontend
       - backend
     networks:
-      - mynetworks
+      - mynetwork
 
 networks:
   mynetwork:
